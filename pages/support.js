@@ -1,11 +1,11 @@
 import React from 'react'
-import Layout from '../components/Layout'
+import Page from '../components/Page'
 
 export default () => {
   return (
-    <Layout>
+    <Page>
       <h1>Support</h1>
       <a href='mailto: simon@simonfrisk.com'>Mail</a>
-    </Layout>
+    </Page>
   )
 }

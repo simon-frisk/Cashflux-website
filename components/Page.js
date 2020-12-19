@@ -5,9 +5,8 @@ export default ({ children }) => {
     <div
       style={{
         margin: '6vw auto',
-        maxWidth: 500,
+        maxWidth: 750,
         width: '92%',
-        fontFamily: 'Arial Rounded MT Bold, Sans-serif',
       }}
     >
       {children}
