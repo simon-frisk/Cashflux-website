@@ -5,8 +5,8 @@ import styled from 'styled-components'
 export default function Footer() {
   return (
     <Container>
-      <Link href='/support'>
-        <a>Support</a>
+      <Link href='/contact'>
+        <a>Contact</a>
       </Link>
 
       <Link href='/privacypolicy'>

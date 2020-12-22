@@ -4,40 +4,21 @@ import styled, { keyframes } from 'styled-components'
 export default function PresentationArticle({image, header, text, reverse}) {
   return (
     <Container>
-      {!reverse && <img src={image} /> }
-      <div>
-        <h2>{header}</h2>
+      {!reverse && <img src={image} style={{height: '80vh'}} /> }
+      <div style={{padding: '5%'}}>
+        <h2 style={{fontSize: '2em'}}>{header}</h2>
         <p>{text}</p>
       </div>
-      {reverse && <img src={image} /> }
+      {reverse && <img src={image} style={{height: '80vh'}} /> }
     </Container>
   )
 }
-
-const animation = keyframes`
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-`
 
 const Container = styled.div`
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   margin-top: 30px;
-  animation: ${animation} 3s ease-in;
   color: #222;
-  h2 {
-    font-size: 3.5em;
-  }
-  div {
-    padding: 5%;
-  }
-  img {
-    object-fit: cover;
-    width: 30%;
-  }
+  flex-wrap: wrap;
 `

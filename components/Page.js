@@ -4,7 +4,7 @@ export default ({ children }) => {
   return (
     <div
       style={{
-        margin: '6vw auto',
+        margin: 'auto',
         maxWidth: 750,
         width: '92%',
       }}

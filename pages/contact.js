@@ -4,7 +4,7 @@ import Page from '../components/Page'
 export default () => {
   return (
     <Page>
-      <h1>Support</h1>
+      <h1>Contact</h1>
       <a href='mailto: simon@simonfrisk.com'>Mail</a>
     </Page>
   )
