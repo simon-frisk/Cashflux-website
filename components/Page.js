@@ -4,9 +4,9 @@ export default ({ children }) => {
   return (
     <div
       style={{
-        margin: 'auto',
         maxWidth: 750,
-        width: '92%',
+        width: '90%',
+        margin: '5% auto'
       }}
     >
       {children}
