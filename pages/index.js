@@ -7,12 +7,12 @@ export default () => (
     <Page>
       <div style={{maxWidth: '75%'}}>
         <h1 style={{ fontSize: '3em', marginBottom: 0 }}>Cashflux</h1>
-        <h3 style={{color: '#666'}}>Bringing the future of personal economy</h3>
+        <h3 style={{color: '#666'}}>Keep track of your expenses</h3>
       </div>
-      <p>
+      {/*<p>
         Cashflux is an expense tracking app that aims to bring the future of personal economy.
         We believe personal economy should be easy, clear, modern and integrate great into our digital lives.
-      </p>
+      </p>*/}
       <h2>Features</h2>
       <div style={{display: 'flex', alignItems: 'center'}}>
         <img src='/image1.png' style={{width: '30%'}} />
