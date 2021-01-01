@@ -12,6 +12,10 @@ export default function Footer() {
       <Link href='/privacypolicy'>
         <a>Privacy policy</a>
       </Link>
+
+      <Link href='/eula'>
+        <a>End user license agreement</a>
+      </Link>
     </Container>
   )
 }
